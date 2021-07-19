@@ -22,6 +22,10 @@ na pasta que desejar dentro de sua máquina utilizando um terminal linux, após 
   
 Após finalizado o script de instalação, cheque seu endereço de IPV4 local (o comando ```ifconfig``` lhe fornece esse dado) e o insira no arquivo **server.py** linha 9, dentro da variável 'ip'. Dessa forma você dirá para sua rede que seu computador estará rodando esse servidor!
 
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/ip.png">
+</p>
+
 ## Execução
 
 Para a execução do servidor, dentro da pasta dos arquivos clonados execute o comando
@@ -29,10 +33,6 @@ Para a execução do servidor, dentro da pasta dos arquivos clonados execute o c
 sudo python3 server.py
 ```
 dessa forma seu servidor já estará funcionando, agora basta alterar o servidor DNS nos dispositivos que você quer que se conecte no servidor (seu celular, computador, smartTV, etc...), lembrando que esse servidor é apenas IPV4, então desative o DNS em IPV6 no dispositivo que irá se conectar caso queira que toda sua conexão passe pelo servidor.
-
-<p align="center">
-  <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/ip.png">
-</p>
   
 Todas as últimas 10000 requisições, autorizadas ou bloqueadas, serão documentadas no arquivo **server.log**, assim você poderá ter um controle sobre sua rede e o que está acontecendo.
 
