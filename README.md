@@ -33,7 +33,8 @@ Todas as últimas 10000 requisições, autorizadas ou bloqueadas, serão documen
 Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-ás no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando
 ```
 sudo python3 addurl.py
-```todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
+```
+todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
 
 ## Bugs/problemas conhecidos
 
