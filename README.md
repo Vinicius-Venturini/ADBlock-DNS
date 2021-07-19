@@ -14,7 +14,7 @@ Para instalar o DNS em sua máquina, clone o repositório utilizando o comando:
 ```
 git clone https://github.com/Vinicius-Venturini/ADBlock-DNS.git
 ```
-Na pasta que desejar dentro de sua máquina utilizando um terminal linux, após isso, dentro da pasta clonada, execute o script de instalação com o comando ```./install.sh``` (caso não tenha permissão para utilizar o script, utilize o comando ```chmod +x install.sh```). Será pedido sua senha de usuário, insira e pressione enter. Em um certo momento da instalação (como mostrado na imagem abaixo) será pedido uma outra senha, se você não tiver o mysql previamente instalado apenas pressione enter (o que está sendo pedido é a senha do usuário root do servidor mysql, a senha padrão é vazia, por isso não inserir nada e apenas pressionar enter), caso você já tivesse o mysql instalado antes de rodar o script de instalação, insira sua senha de root e pressione enter nessa parte!
+Após isso, dentro da pasta clonada, execute o script de instalação com o comando ```./install.sh``` (caso não tenha permissão para utilizar o script, utilize o comando ```chmod +x install.sh```). Será pedido sua senha de usuário, insira e pressione enter. Em um certo momento da instalação (como mostrado na imagem abaixo) será pedido uma outra senha, se você não tiver o mysql previamente instalado apenas pressione enter (o que está sendo pedido é a senha do usuário root do servidor mysql, a senha padrão é vazia, por isso não inserir nada e apenas pressionar enter), caso você já tivesse o mysql instalado antes de rodar o script de instalação, insira sua senha de root e pressione enter nessa parte!
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/mysql-password.png">
