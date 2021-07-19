@@ -26,7 +26,7 @@ Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloq
 
 ## Bugs/problemas conhecidos
 
-Esse DNS não é 100% efetivo, visto que ele utiliza uma lista de URLs, é impossível de impedir que todos os anúnicos ou sites maliciosos sejam impedidos de chegar até o usuário final.
+Esse DNS não é 100% efetivo, visto que ele utiliza uma lista de URLs, é impossível de impedir que todos os anúnicos ou sites maliciosos cheguem até o usuário final.
 
 ## Autor
 
