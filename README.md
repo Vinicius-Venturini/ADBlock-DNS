@@ -40,6 +40,11 @@ Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloq
 ```
 sudo python3 addurl.py
 ```
+
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/urls.png">
+</p>
+
 Todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
 
 ## Bugs/problemas conhecidos
