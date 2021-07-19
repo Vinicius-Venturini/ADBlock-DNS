@@ -16,9 +16,9 @@ git clone https://github.com/Vinicius-Venturini/ADBlock-DNS.git
 ```
 na pasta que desejar dentro de sua máquina utilizando um terminal linux, após isso, dentro da pasta clonada, execute o script de instalação com o comando ```./install.sh``` (caso não tenha permissão para utilizar o script, utilize o comando ```chmod +x install.sh```). Será pedido sua senha de usuário, insira e pressione enter. Em um certo momento da instalação (como mostrado na imagem abaixo) será pedido uma outra senha, se você não tiver o mysql previamente instalado apenas pressione enter (o que está sendo pedido é a senha do usuário root do servidor mysql, a senha padrão é vazia, por isso não inserir nada e apenas pressionar enter), caso você já tivesse o mysql instalado antes de rodar o script de instalação, insira sua senha de root e pressione enter nessa parte!
 
-<center>
+\begin{center}
 ![Senha MYSQL](https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/mysql-password.png)
-</center>
+\end{center}
   
 Após finalizado o script de instalação, cheque seu endereço de IPV4 local (o comando ```ifconfig``` lhe fornece esse dado) e o insira no arquivo **server.py** linha 9, dentro da variável 'ip'. Dessa forma você dirá para sua rede que seu computador estará rodando esse servidor!
 
@@ -30,9 +30,9 @@ sudo python3 server.py
 ```
 dessa forma seu servidor já estará funcionando, agora basta alterar o servidor DNS nos dispositivos que você quer que se conecte no servidor (seu celular, computador, smartTV, etc...), lembrando que esse servidor é apenas IPV4, então desative o DNS em IPV6 no dispositivo que irá se conectar caso queira que toda sua conexão passe pelo servidor.
 
-<center>
+\begin{center}
 ![ipv4 no código](https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/ip.png)
-</center>
+\end{center}
   
 Todas as últimas 10000 requisições, autorizadas ou bloqueadas, serão documentadas no arquivo **server.log**, assim você poderá ter um controle sobre sua rede e o que está acontecendo.
 
