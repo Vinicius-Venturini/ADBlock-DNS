@@ -10,11 +10,11 @@ Foram utilizados a liguagem de programação [python](https://www.python.org/) e
 
 ## Instalação
 
-Para instalar o DNS em sua máquina, clone o repositório utilizando o comando
+Para instalar o DNS em sua máquina, clone o repositório utilizando o comando:
 ```
 git clone https://github.com/Vinicius-Venturini/ADBlock-DNS.git
 ```
-na pasta que desejar dentro de sua máquina utilizando um terminal linux, após isso, dentro da pasta clonada, execute o script de instalação com o comando ```./install.sh``` (caso não tenha permissão para utilizar o script, utilize o comando ```chmod +x install.sh```). Será pedido sua senha de usuário, insira e pressione enter. Em um certo momento da instalação (como mostrado na imagem abaixo) será pedido uma outra senha, se você não tiver o mysql previamente instalado apenas pressione enter (o que está sendo pedido é a senha do usuário root do servidor mysql, a senha padrão é vazia, por isso não inserir nada e apenas pressionar enter), caso você já tivesse o mysql instalado antes de rodar o script de instalação, insira sua senha de root e pressione enter nessa parte!
+Na pasta que desejar dentro de sua máquina utilizando um terminal linux, após isso, dentro da pasta clonada, execute o script de instalação com o comando ```./install.sh``` (caso não tenha permissão para utilizar o script, utilize o comando ```chmod +x install.sh```). Será pedido sua senha de usuário, insira e pressione enter. Em um certo momento da instalação (como mostrado na imagem abaixo) será pedido uma outra senha, se você não tiver o mysql previamente instalado apenas pressione enter (o que está sendo pedido é a senha do usuário root do servidor mysql, a senha padrão é vazia, por isso não inserir nada e apenas pressionar enter), caso você já tivesse o mysql instalado antes de rodar o script de instalação, insira sua senha de root e pressione enter nessa parte!
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/mysql-password.png">
@@ -28,19 +28,19 @@ Após finalizado o script de instalação, cheque seu endereço de IPV4 local (o
 
 ## Execução
 
-Para a execução do servidor, dentro da pasta dos arquivos clonados execute o comando
+Para a execução do servidor, dentro da pasta dos arquivos clonados execute o comando:
 ```
 sudo python3 server.py
 ```
-dessa forma seu servidor já estará funcionando, agora basta alterar o servidor DNS nos dispositivos que você quer que se conecte no servidor (seu celular, computador, smartTV, etc...), lembrando que esse servidor é apenas IPV4, então desative o DNS em IPV6 no dispositivo que irá se conectar caso queira que toda sua conexão passe pelo servidor.
+Dessa forma seu servidor já estará funcionando, agora basta alterar o servidor DNS nos dispositivos que você quer que se conecte no servidor (seu celular, computador, smartTV, etc...), lembrando que esse servidor é apenas IPV4, então desative o DNS em IPV6 no dispositivo que irá se conectar caso queira que toda sua conexão passe pelo servidor.
   
 Todas as últimas 10000 requisições, autorizadas ou bloqueadas, serão documentadas no arquivo **server.log**, assim você poderá ter um controle sobre sua rede e o que está acontecendo.
 
-Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-ás no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando
+Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-ás no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando:
 ```
 sudo python3 addurl.py
 ```
-todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
+Todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
 
 ## Bugs/problemas conhecidos
 
