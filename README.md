@@ -35,6 +35,6 @@ Esse DNS não é 100% efetivo, visto que ele utiliza uma lista de URLs, é impos
 
 ## Referências
 
-- O projeto foi inspirado no [PiHole](https://pi-hole.net/) para ser feito
+- Este projeto foi inspirado no [PiHole](https://pi-hole.net/) para ser feito
 - A lista inicial de URLs foi uma junção de várias listas disponibilizadas pelo projeto [The Block List Project](https://github.com/blocklistproject/Lists)
 - Como ajuda para fazer o script do servidor DNS, foi utilizada a playlist [https://youtube.com/playlist?list=PLBOh8f9FoHHhvO5e5HF_6mYvtZegobYX2](https://youtube.com/playlist?list=PLBOh8f9FoHHhvO5e5HF_6mYvtZegobYX2) do canal [howCode](https://www.youtube.com/howCode)
