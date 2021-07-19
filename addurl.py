@@ -33,5 +33,9 @@ while i < tam:
     format_per = "{:.2f}".format(percent)
     print(str(format_per) + "% done...", end="\r")
 
+file = open("blocklist.list", "w")
+file.write('')
+file.close()
+
 sys.stdout.write("\033[K")
 print("Finished")
