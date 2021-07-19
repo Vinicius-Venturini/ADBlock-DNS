@@ -36,7 +36,7 @@ Dessa forma seu servidor já estará funcionando, agora basta alterar o servidor
   
 Todas as últimas 10000 requisições, autorizadas ou bloqueadas, serão documentadas no arquivo **server.log**, assim você poderá ter um controle sobre sua rede e o que está acontecendo.
 
-Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-ás no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando:
+Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-as no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando:
 ```
 sudo python3 addurl.py
 ```
