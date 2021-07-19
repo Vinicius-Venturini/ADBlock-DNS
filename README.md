@@ -22,11 +22,18 @@ Após finalizado o script de instalação, cheque seu endereço de IPV4 local (o
 
 ## Execução
 
-Para a execução do servidor, dentro da pasta dos arquivos clonados execute o comando ```sudo python3 server.py```, dessa forma seu servidor já estará funcionando, agora basta alterar o servidor DNS nos dispositivos que você quer que se conecte no servidor (seu celular, computador, smartTV, etc...), lembrando que esse servidor é apenas IPV4, então desative o DNS em IPV6 no dispositivo que irá se conectar caso queira que toda sua conexão passe pelo servidor.
+Para a execução do servidor, dentro da pasta dos arquivos clonados execute o comando
+```
+sudo python3 server.py
+```
+dessa forma seu servidor já estará funcionando, agora basta alterar o servidor DNS nos dispositivos que você quer que se conecte no servidor (seu celular, computador, smartTV, etc...), lembrando que esse servidor é apenas IPV4, então desative o DNS em IPV6 no dispositivo que irá se conectar caso queira que toda sua conexão passe pelo servidor.
 
 Todas as últimas 10000 requisições, autorizadas ou bloqueadas, serão documentadas no arquivo **server.log**, assim você poderá ter um controle sobre sua rede e o que está acontecendo.
 
-Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-ás no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando ```sudo python3 addurl.py```, todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
+Caso queira adicionar novas URLs a serem bloqueadas no seu banco de dados, coloque-ás no arquivo **blocklist.list** com um enter no final de cada url, e execute o comando
+```
+sudo python3 addurl.py
+```todas as URLs contidas no arquivo serão adicionadas no banco de dados, e o arquivo ficará limpo para uma próxima adição.
 
 ## Bugs/problemas conhecidos
 
