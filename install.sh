@@ -5,12 +5,12 @@ sudo apt-get upgrade
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
 sudo python3 -m pip install -r requirements.txt
-sudo apt-get install mysql-server -y
+sudo apt-get install mariadb-server -y
 sudo systemctl enable mysql
 sudo systemctl start mysql
 
 readonly Q1="CREATE DATABASE IF NOT EXISTS dns;"
-readonly Q2="CREATE USER IF NOT EXISTS 'DNS'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';"
+readonly Q2="CREATE USER IF NOT EXISTS 'DNS'@'localhost' IDENTIFIED BY 'password';"
 readonly Q3="GRANT ALL PRIVILEGES ON *.* TO 'DNS'@'localhost';"
 readonly Q4="FLUSH PRIVILEGES;"
 readonly Q5="USE dns;"
