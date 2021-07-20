@@ -6,7 +6,7 @@ Este projeto tem a intenção de ser um servidor DNS para a rede local, no qual 
   
 ## Pré-requisitos e recursos utilizados
 
-Foram utilizados a liguagem de programação [python](https://www.python.org/) em sua versão python3, e também o sistema de banco de dados [MYSQL](https://www.mysql.com/) no qual armazena as URLs que são bloqueadas no servidor. Não é necessário ter ambos pré-instalados caso seja utilizado um terminal Unix (Distros Linux, MACos ou WSL no Windows), já que o script de instalação, feito em Shell Script, instala todas as dependências necessárias para a execução do servidor em sua máquina!
+Foram utilizados a liguagem de programação [python](https://www.python.org/) em sua versão python3, e também o sistema de banco de dados [MYSQL](https://www.mysql.com/) no qual armazena as URLs que são bloqueadas no servidor. Não é necessário ter ambos pré-instalados caso seja utilizado uma Distribuição Linux, já que o script de instalação, feito em Shell Script, instala todas as dependências necessárias para a execução do servidor em sua máquina!
 
 ## Instalação
 
