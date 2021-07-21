@@ -6,7 +6,7 @@ from datetime import datetime
 import mysql.connector
 
 port = 53 #O serviço de DNS roda na porta 53, então não altere
-ip = '' #Insira seu ipv4 local aqui
+ip = '0.0.0.0' #Este ip indica seu IPV4, não altere
 dns = ('8.8.8.8', 53)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
