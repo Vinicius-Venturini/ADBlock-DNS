@@ -19,12 +19,6 @@ Após isso, dentro da pasta clonada, execute o script de instalação com o coma
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/mysql-password.png">
 </p>
-  
-Após finalizado o script de instalação, cheque seu endereço de IPV4 local (o comando ```ifconfig``` lhe fornece esse dado) e o insira no arquivo **server.py** linha 9, dentro da variável 'ip'. Dessa forma você dirá para sua rede que seu computador estará rodando esse servidor!
-
-<p align="center">
-  <img src="https://github.com/Vinicius-Venturini/ADBlock-DNS/blob/main/images/ip.png">
-</p>
 
 ## Execução
 
